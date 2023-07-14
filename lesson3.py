@@ -65,7 +65,7 @@ textPiece="Python is better than C++  because it is easier to understand."
 print(textPiece.split("  "))
 print("")"""
 # Capitalize:
-text="Today is Friday."
+text="today is friday."
 x=text.capitalize()
 print(x)
 y="25 is a number."
