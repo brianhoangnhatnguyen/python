@@ -101,4 +101,8 @@ print("")
 print(b[49])
 # Length of a string:
 s="Lengthy"
-print(len(s)) 
+print(len(s))
+print("")
+# Looping through a string:
+for x in "programming":
+    print(x)
