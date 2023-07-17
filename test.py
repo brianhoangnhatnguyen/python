@@ -27,3 +27,14 @@ print(a+b+c)
 print("")
 a,b,c="hi","hello","bye"
 print(a,b,c)
+# Continued test
+print("Today is the test of Python.")
+print(type("Today is the test of Python."))
+print(len("Amusement"))
+print("Amusement"[-4:-1])
+for x in "Amusement":
+    print(x)
+if "men" in "Amusement":
+    print("YES")
+print("amusement".upper())
+print("AMUSEMENT".lower())
