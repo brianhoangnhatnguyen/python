@@ -1,4 +1,4 @@
-"""# Checking strings:
+# Checking strings:
 text="The best things in life are free."
 print("free" in text)
 print("forest" in text)
@@ -63,7 +63,7 @@ hat="hat"
 print(hat.replace("h","c"))
 textPiece="Python is better than C++  because it is easier to understand."
 print(textPiece.split("  "))
-print("")"""
+print("")
 # Capitalize:
 text="today is friday."
 x=text.capitalize()
