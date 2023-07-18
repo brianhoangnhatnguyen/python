@@ -27,7 +27,6 @@ print(a+b+c)
 print("")
 a,b,c="hi","hello","bye"
 print(a,b,c)
-# Continued test
 print("Today is the test of Python.")
 print(type("Today is the test of Python."))
 print(len("Amusement"))
@@ -38,3 +37,12 @@ if "men" in "Amusement":
     print("YES")
 print("amusement".upper())
 print("AMUSEMENT".lower())
+number=12
+print("I am {} years old.".format(number))
+a = "I"
+b = "am"
+c = "learning"
+d = "Python"
+e = "strings."
+print(a, b, c, d, e)
+print("i am learning python strings.".capitalize())
