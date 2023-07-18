@@ -29,3 +29,65 @@ print(x % y)
 print(x ** y)
 # Floor division:
 print(x // y)
+print("")
+# Assingment operators: (=, +=, -=, *=, /=, **=, //=, &=, >=, <=)
+x = 7
+x += 2
+print(x)
+x = 7
+x -= 2
+print(x)
+x = 7
+x *= 2
+print(x)
+x = 7
+x /= 2
+print(x)
+x = 7
+x **= 2
+print(x)
+x = 7
+x //= 2
+print(x)
+x = 7
+x &= 2
+print(x)
+x = 7
+x >>= 2
+print(x)
+x = 7
+x <<= 2
+print(x)
+# Comparison operators: (==, >=, <=, !=, >, <)
+x = 12
+y = 7
+print(x==y)
+print(x!=y)
+print(x<=y)
+print(x>=y)
+print(x<y)
+print(x>y)
+print("")
+# Logical operators: (and, or, not)
+a = 12
+print(a < 19 and a > 10)
+print(a < 8 or a > 7)
+print(not(a < 19 and a > 10))
+print(a < 20000 and a > -2476)
+print(a < -9876345 or a > -23479623478623598567878569234495237864523976825436789)
+print(not(a < -9876345 or a > -2347962))
+print(not(not(not(not(not(not(not(not(not(not(not(not(not(not(not(not(not(not(not(not(not(not(not(not(a < -9876345 or a > -2347962)))))))))))))))))))))))))
+print("")
+# Indentity operators: (is, is not)
+x = ["Apple", "Kiwi"]
+y = ["Apple", "Kiwi", "Orange"]
+z = x
+print(x is z)
+print(x is y)
+print(x is not z)
+print(x is not y)
+print("")
+# Membership: (in, not in)
+print("Kiwi" in x)
+print("Pear" in x)
+print("Orange" not in x)
