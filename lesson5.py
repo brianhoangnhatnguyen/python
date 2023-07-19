@@ -30,7 +30,7 @@ print(x ** y)
 # Floor division:
 print(x // y)
 print("")
-# Assingment operators: (=, +=, -=, *=, /=, **=, //=, &=, >=, <=)
+# Assignment operators: (=, +=, -=, *=, /=, **=, //=, &=, >=, <=)
 x = 7
 x += 2
 print(x)
@@ -87,7 +87,7 @@ print(x is y)
 print(x is not z)
 print(x is not y)
 print("")
-# Membership: (in, not in)
+# Membership operators: (in, not in)
 print("Kiwi" in x)
 print("Pear" in x)
 print("Orange" not in x)
