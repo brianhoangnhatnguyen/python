@@ -34,3 +34,22 @@ my_List4[1] = "Pear"
 print(my_List4)
 my_List4[1:3] = ["Pineapple", "Watermelon"]
 print(my_List4)
+# Adding items:
+# append():
+my_List4 = ["Apple", "Kiwi", "Orange"]
+my_List4.append("Pear")
+print(my_List4)
+# insert():
+my_List4 = ["Apple", "Kiwi", "Orange"]
+my_List4.insert(1, "Pear")
+print(my_List4)
+# Practice questions 2:
+the_List = list(("One", "Two", "Three", "Four"))
+print(the_List)
+print(the_List[2])
+the_List[0] = 1
+print(the_List)
+the_List.append("Five")
+print(the_List)
+the_List.insert(1, 1.5)
+print(the_List)
