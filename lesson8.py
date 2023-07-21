@@ -24,6 +24,7 @@ print(newlist)
 fruits = ["apple", "kiwi", "pear"]
 newlist = [x.upper() for x in fruits]
 print(newlist)
+
 # Sorting lists:
 # Ascending order:
 fruits = ["orange", "apple", "watermelon"]
