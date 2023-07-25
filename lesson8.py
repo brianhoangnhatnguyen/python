@@ -69,3 +69,34 @@ print(objects2)
 objects = ["umbrella", "shampoo", "pencil"]
 newlist = list(objects)
 print(newlist)
+
+# Join list: (+ operator)
+list1 = [1, 2, 3]
+list2 = ["a", "b", "c"]
+list3 = list1 + list2
+print(list3)
+print(list1 + list2)
+# append() method:
+list1 = [1, 2, 3]
+list2 = ["a", "b", "c"]
+for x in list2:
+    list1.append(x)
+print(list1)
+# extend() method:
+list1 = [1, 2, 3]
+list2 = ["a", "b", "c"]
+list1.extend(list2)
+print(list1)
+# Practice questions:
+list1 = ["hi", "hey", "hello"]
+list2 = ["bye", "goodbye", "byebye"]
+print(list1 + list2)
+list1 = ["hi", "hey", "hello"]
+list2 = ["bye", "goodbye", "byebye"]
+for x in list2:
+    list1.append(x)
+print(list1)
+list1 = ["hi", "hey", "hello"]
+list2 = ["bye", "goodbye", "byebye"]
+list1.extend(list2)
+print(list1)
