@@ -57,3 +57,64 @@ y = list(x)
 y.remove("kiwi")
 x = tuple(y)
 print(x)
+
+# Practice questions:
+x = ("hey", "hi", "goodbye")
+y = list(x)
+y[2] = "hello"
+x = tuple(y)
+print(x)
+x = ("hey", "hi", "goodbye")
+y = list(x)
+y.append("byebye")
+x = tuple(y)
+print(x)
+x = ("hey", "hi", "goodbye")
+y = list(x)
+y.remove("goodbye")
+x = tuple(y)
+print(x)
+
+# Unpacking a collection:
+fruits = ('apple', 'kiwi', 'pear')
+(red, green, blue) = fruits
+print(red)
+print(green)
+print(blue)
+
+# Loop tuples:
+greetings = ("hi", "hello", "hey")
+for x in greetings:
+    print(x)
+tupe1 = ("This", "is", "a", "tuple.")
+for i in range(len(tupe1)):
+    print(tupe1[i])
+fruits = ("lychee", "lemon", "apple", "watermelon")
+i = 0
+while i < len(fruits):
+    print(fruits[i])
+    i = i + 1
+
+# Join tuples:
+_tuple = (1, 2, 3, 4, 5)
+_tuple2 = ('a', 'b', 'c', 'd')
+_tuple3 = _tuple + _tuple2
+print(_tuple3)
+print(_tuple + _tuple2)
+
+# Multiply tuples:
+_tuple = (1, 2, 3, 4, 5)
+myTuple = _tuple * 3
+print(myTuple)
+
+# Practice questions 2:
+myTuple = ('Visual', 'Studio', 'Code', 'is', 'better', 'than', 'Online', 'GDB', 'Compiler.')
+(a1, a2, a3, a4, a5, a6, a7, a8, a9) = myTuple
+print(a1, a2, a3, a4, a5, a6, a7, a8, a9)
+for x in myTuple:
+    print(x)
+print("")
+i = 0
+while i < len(myTuple):
+    print(myTuple[i])
+    i = i + 1
