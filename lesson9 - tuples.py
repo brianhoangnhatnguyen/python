@@ -36,3 +36,24 @@ if "yo" in thisisalsoatuple:
     print("yo")
 if "hi" not in thisisalsoatuple:
     print("yoyo")
+
+# Changing tuples:
+tuple1 = ("apple", "kiwi", "pear")
+x = list(tuple1)
+x[1] = "cherry"
+x = tuple(x)
+print(x)
+
+# Add items:
+x = ("apple", "kiwi", "pear")
+y = list(x)
+y.append("orange")
+x = tuple(y)
+print(x)
+
+# Remove items:
+x = ("apple", "kiwi", "pear")
+y = list(x)
+y.remove("kiwi")
+x = tuple(y)
+print(x)
